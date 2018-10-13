@@ -10,6 +10,7 @@
         <in>thread_create_5.cpp</in>
         <in>thread_create_6.cpp</in>
         <in>thread_create_7.cpp</in>
+        <in>thread_create_8.cpp</in>
       </df>
     </df>
     <logicalFolder name="ExternalFiles"
@@ -93,6 +94,11 @@
         </ccTool>
       </item>
       <item path="tworzenie_watkow/thread_create_7.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="tworzenie_watkow/thread_create_8.cpp"
             ex="false"
             tool="1"
             flavor2="0">

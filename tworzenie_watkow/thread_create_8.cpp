@@ -15,11 +15,11 @@
  */
 
 /* 
- * File:   thread_create_1.cpp
- * Author: Mateusz Krainski
+ * File:   thread_create_8.cpp
+ * Author: Mateusz@Krainski.eu
  *
- * This program is to demonstrate basic thread creation using a function
- * Created on October 12, 2018, 5:49 PM
+ * This program demonstrates the thread detach behavior
+ * Created on October 14, 2018, 1:19 AM
  */
 
 #include <iostream>
@@ -42,5 +42,6 @@ int main(int argc, char** argv) {
     cout << "Main finishing" << endl;
 
     return 0;
+        
 }
 

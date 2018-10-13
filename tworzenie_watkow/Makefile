@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/rule:
+	cd /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads && $(MAKE) -f CMakeFiles/Makefile2 tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/rule
+.PHONY : tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/rule
+
+# Convenience name for target.
+executables/thread_create_8: tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/rule
+
+.PHONY : executables/thread_create_8
+
+# fast build rule for target.
+executables/thread_create_8/fast:
+	cd /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads && $(MAKE) -f tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/build.make tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/build
+.PHONY : executables/thread_create_8/fast
+
+# Convenience name for target.
 tworzenie_watkow/CMakeFiles/executables/thread_create_7.dir/rule:
 	cd /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads && $(MAKE) -f CMakeFiles/Makefile2 tworzenie_watkow/CMakeFiles/executables/thread_create_7.dir/rule
 .PHONY : tworzenie_watkow/CMakeFiles/executables/thread_create_7.dir/rule
@@ -404,6 +419,33 @@ thread_create_7.cpp.s:
 	cd /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads && $(MAKE) -f tworzenie_watkow/CMakeFiles/executables/thread_create_7.dir/build.make tworzenie_watkow/CMakeFiles/executables/thread_create_7.dir/thread_create_7.cpp.s
 .PHONY : thread_create_7.cpp.s
 
+thread_create_8.o: thread_create_8.cpp.o
+
+.PHONY : thread_create_8.o
+
+# target to build an object file
+thread_create_8.cpp.o:
+	cd /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads && $(MAKE) -f tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/build.make tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/thread_create_8.cpp.o
+.PHONY : thread_create_8.cpp.o
+
+thread_create_8.i: thread_create_8.cpp.i
+
+.PHONY : thread_create_8.i
+
+# target to preprocess a source file
+thread_create_8.cpp.i:
+	cd /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads && $(MAKE) -f tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/build.make tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/thread_create_8.cpp.i
+.PHONY : thread_create_8.cpp.i
+
+thread_create_8.s: thread_create_8.cpp.s
+
+.PHONY : thread_create_8.s
+
+# target to generate assembly for a file
+thread_create_8.cpp.s:
+	cd /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads && $(MAKE) -f tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/build.make tworzenie_watkow/CMakeFiles/executables/thread_create_8.dir/thread_create_8.cpp.s
+.PHONY : thread_create_8.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -412,6 +454,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... executables/thread_create_8"
 	@echo "... executables/thread_create_7"
 	@echo "... executables/thread_create_2"
 	@echo "... executables/thread_create_1"
@@ -440,6 +483,9 @@ help:
 	@echo "... thread_create_7.o"
 	@echo "... thread_create_7.i"
 	@echo "... thread_create_7.s"
+	@echo "... thread_create_8.o"
+	@echo "... thread_create_8.i"
+	@echo "... thread_create_8.s"
 .PHONY : help
 
 
