@@ -1,1 +1,0 @@
-/cygdrive/C/Users/pc1/Documents/NetBeansProjects/threads/nbproject/private/tools/localhost/Cygwin/g++.exe  -g3 -gdwarf-2  -Wl,--enable-auto-import CMakeFiles/executables/thread_create_2.dir/thread_create_2.cpp.o  -o executables/thread_create_2.exe -Wl,--out-implib,libexecutables/thread_create_2.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
