@@ -24,22 +24,47 @@
 
 #include <iostream>
 #include <thread>
+#include <chrono>
 
 using namespace std;
 
+int get_elapsed_time(){
+    static chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
+    
+    chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
+    
+    return std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count();
+}
+
 void perform_operation(){
-    cout << "This is printed from thread\n";
+    this_thread::sleep_for(chrono::seconds(2));
+    cout << "["<< get_elapsed_time() <<"] This is printed from thread\n";
 }
 
 int main(int argc, char** argv) {
     
+    
+    cout << "["<< get_elapsed_time() <<"] Creating thread...\n";
     thread thread_object(perform_operation);
-    
-    cout << "This is printed from main\n";
-    
+    cout << "["<< get_elapsed_time() <<"] Thread created, waiting for join...\n";
     thread_object.join();
+    cout << "["<< get_elapsed_time() <<"] Thread joined!\n";
     
-    cout << "Main finishing" << endl;
+    cout << "["<< get_elapsed_time() <<"] Creating thread...\n";
+    thread thread_object2(perform_operation);
+    cout << "["<< get_elapsed_time() <<"] Thread created, detaching...\n";
+    thread_object2.detach();
+    cout << "["<< get_elapsed_time() <<"] Thread detached!\n";
+    
+    cout << "["<< get_elapsed_time() <<"] Main sleeping...\n";
+    this_thread::sleep_for(chrono::seconds(3));
+    
+    cout << "["<< get_elapsed_time() <<"] Creating thread...\n";
+    thread thread_object3(perform_operation);
+    cout << "["<< get_elapsed_time() <<"] Thread created, detaching...\n";
+    thread_object3.detach();
+    cout << "["<< get_elapsed_time() <<"] Thread detached!\n";
+    cout << "["<< get_elapsed_time() <<"] Main finishing...\n";
 
     return 0;
         

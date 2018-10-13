@@ -67,6 +67,8 @@
             </df>
             <df name="thread_create_7.dir">
             </df>
+            <df name="thread_create_8.dir">
+            </df>
           </df>
         </df>
         <df name="executables">
@@ -79,6 +81,7 @@
         <in>thread_create_6.cpp</in>
         <in>thread_create_7.cpp</in>
         <in>thread_create_8.cpp</in>
+        <in>thread_create_9.cpp</in>
       </df>
     </df>
   </logicalFolder>
