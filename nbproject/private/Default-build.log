@@ -1,0 +1,8 @@
+Scanning dependencies of target thread_create_1
+[ 25%] Building CXX object CMakeFiles/thread_create_1.dir/tworzenie_watkow/thread_create_1.cpp.o
+[ 50%] Linking CXX executable thread_create_1.exe
+[ 50%] Built target thread_create_1
+Scanning dependencies of target thread_create_2
+[ 75%] Building CXX object CMakeFiles/thread_create_2.dir/tworzenie_watkow/thread_create_2.cpp.o
+[100%] Linking CXX executable thread_create_2.exe
+[100%] Built target thread_create_2
