@@ -3,7 +3,11 @@
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
       <df name="tworzenie_watkow">
+        <in>ex_1.cpp</in>
+        <in>ex_2.cpp</in>
         <in>thread_create_1.cpp</in>
+        <in>thread_create_10.cpp</in>
+        <in>thread_create_11.cpp</in>
         <in>thread_create_2.cpp</in>
         <in>thread_create_3.cpp</in>
         <in>thread_create_4.cpp</in>
@@ -36,7 +40,8 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <flagsDictionary>
-        <element flagsID="0" commonFlags="-std=gnu++11"/>
+        <element flagsID="0" commonFlags="-std=c++14"/>
+        <element flagsID="1" commonFlags="-std=gnu++11"/>
       </flagsDictionary>
       <codeAssistance>
       </codeAssistance>
@@ -52,7 +57,29 @@
           <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .</preBuildCommand>
         </preBuild>
       </makefileType>
+      <item path="tworzenie_watkow/ex_1.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="tworzenie_watkow/ex_2.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
       <item path="tworzenie_watkow/thread_create_1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="tworzenie_watkow/thread_create_10.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="tworzenie_watkow/thread_create_11.cpp"
             ex="false"
             tool="1"
             flavor2="8">
@@ -63,51 +90,57 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="tworzenie_watkow/thread_create_3.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="tworzenie_watkow/thread_create_4.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="tworzenie_watkow/thread_create_5.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="tworzenie_watkow/thread_create_6.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="tworzenie_watkow/thread_create_7.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
       </item>
       <item path="tworzenie_watkow/thread_create_8.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
       </item>
       <item path="tworzenie_watkow/thread_create_9.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
       </item>
     </conf>
   </confs>

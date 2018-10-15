@@ -1,6 +1,26 @@
 [
 {
   "directory": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow",
+  "command": "/cygdrive/C/Users/pc1/Documents/NetBeansProjects/threads/nbproject/private/tools/localhost/Cygwin/g++.exe     -g3 -gdwarf-2   -std=gnu++11 -o CMakeFiles/executables/ex_2.dir/ex_2.cpp.o -c /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/ex_2.cpp",
+  "file": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/ex_2.cpp"
+},
+{
+  "directory": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow",
+  "command": "/cygdrive/C/Users/pc1/Documents/NetBeansProjects/threads/nbproject/private/tools/localhost/Cygwin/g++.exe     -g3 -gdwarf-2   -std=gnu++11 -o CMakeFiles/executables/thread_create_11.dir/thread_create_11.cpp.o -c /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_11.cpp",
+  "file": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_11.cpp"
+},
+{
+  "directory": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow",
+  "command": "/cygdrive/C/Users/pc1/Documents/NetBeansProjects/threads/nbproject/private/tools/localhost/Cygwin/g++.exe     -g3 -gdwarf-2   -std=gnu++11 -o CMakeFiles/executables/thread_create_10.dir/thread_create_10.cpp.o -c /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_10.cpp",
+  "file": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_10.cpp"
+},
+{
+  "directory": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow",
+  "command": "/cygdrive/C/Users/pc1/Documents/NetBeansProjects/threads/nbproject/private/tools/localhost/Cygwin/g++.exe     -g3 -gdwarf-2   -std=gnu++11 -o CMakeFiles/executables/thread_create_9.dir/thread_create_9.cpp.o -c /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_9.cpp",
+  "file": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_9.cpp"
+},
+{
+  "directory": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow",
   "command": "/cygdrive/C/Users/pc1/Documents/NetBeansProjects/threads/nbproject/private/tools/localhost/Cygwin/g++.exe     -g3 -gdwarf-2   -std=gnu++11 -o CMakeFiles/executables/thread_create_8.dir/thread_create_8.cpp.o -c /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_8.cpp",
   "file": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_8.cpp"
 },
@@ -13,6 +33,11 @@
   "directory": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow",
   "command": "/cygdrive/C/Users/pc1/Documents/NetBeansProjects/threads/nbproject/private/tools/localhost/Cygwin/g++.exe     -g3 -gdwarf-2   -std=gnu++11 -o CMakeFiles/executables/thread_create_2.dir/thread_create_2.cpp.o -c /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_2.cpp",
   "file": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/thread_create_2.cpp"
+},
+{
+  "directory": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow",
+  "command": "/cygdrive/C/Users/pc1/Documents/NetBeansProjects/threads/nbproject/private/tools/localhost/Cygwin/g++.exe     -g3 -gdwarf-2   -std=gnu++11 -o CMakeFiles/executables/ex_3.dir/ex_3.cpp.o -c /cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/ex_3.cpp",
+  "file": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow/ex_3.cpp"
 },
 {
   "directory": "/cygdrive/c/Users/pc1/Documents/NetBeansProjects/threads/tworzenie_watkow",

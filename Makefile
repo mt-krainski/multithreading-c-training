@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named executables/ex_2
+
+# Build rule for target.
+executables/ex_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 executables/ex_2
+.PHONY : executables/ex_2
+
+# fast build rule for target.
+executables/ex_2/fast:
+	$(MAKE) -f tworzenie_watkow/CMakeFiles/executables/ex_2.dir/build.make tworzenie_watkow/CMakeFiles/executables/ex_2.dir/build
+.PHONY : executables/ex_2/fast
+
+#=============================================================================
+# Target rules for targets named executables/thread_create_11
+
+# Build rule for target.
+executables/thread_create_11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 executables/thread_create_11
+.PHONY : executables/thread_create_11
+
+# fast build rule for target.
+executables/thread_create_11/fast:
+	$(MAKE) -f tworzenie_watkow/CMakeFiles/executables/thread_create_11.dir/build.make tworzenie_watkow/CMakeFiles/executables/thread_create_11.dir/build
+.PHONY : executables/thread_create_11/fast
+
+#=============================================================================
+# Target rules for targets named executables/thread_create_10
+
+# Build rule for target.
+executables/thread_create_10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 executables/thread_create_10
+.PHONY : executables/thread_create_10
+
+# fast build rule for target.
+executables/thread_create_10/fast:
+	$(MAKE) -f tworzenie_watkow/CMakeFiles/executables/thread_create_10.dir/build.make tworzenie_watkow/CMakeFiles/executables/thread_create_10.dir/build
+.PHONY : executables/thread_create_10/fast
+
+#=============================================================================
+# Target rules for targets named executables/thread_create_9
+
+# Build rule for target.
+executables/thread_create_9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 executables/thread_create_9
+.PHONY : executables/thread_create_9
+
+# fast build rule for target.
+executables/thread_create_9/fast:
+	$(MAKE) -f tworzenie_watkow/CMakeFiles/executables/thread_create_9.dir/build.make tworzenie_watkow/CMakeFiles/executables/thread_create_9.dir/build
+.PHONY : executables/thread_create_9/fast
+
+#=============================================================================
 # Target rules for targets named executables/thread_create_8
 
 # Build rule for target.
@@ -148,6 +200,19 @@ executables/thread_create_2: cmake_check_build_system
 executables/thread_create_2/fast:
 	$(MAKE) -f tworzenie_watkow/CMakeFiles/executables/thread_create_2.dir/build.make tworzenie_watkow/CMakeFiles/executables/thread_create_2.dir/build
 .PHONY : executables/thread_create_2/fast
+
+#=============================================================================
+# Target rules for targets named executables/ex_3
+
+# Build rule for target.
+executables/ex_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 executables/ex_3
+.PHONY : executables/ex_3
+
+# fast build rule for target.
+executables/ex_3/fast:
+	$(MAKE) -f tworzenie_watkow/CMakeFiles/executables/ex_3.dir/build.make tworzenie_watkow/CMakeFiles/executables/ex_3.dir/build
+.PHONY : executables/ex_3/fast
 
 #=============================================================================
 # Target rules for targets named executables/thread_create_1
@@ -222,9 +287,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... executables/ex_2"
+	@echo "... executables/thread_create_11"
+	@echo "... executables/thread_create_10"
+	@echo "... executables/thread_create_9"
 	@echo "... executables/thread_create_8"
 	@echo "... executables/thread_create_7"
 	@echo "... executables/thread_create_2"
+	@echo "... executables/ex_3"
 	@echo "... executables/thread_create_1"
 	@echo "... executables/thread_create_4"
 	@echo "... executables/thread_create_3"

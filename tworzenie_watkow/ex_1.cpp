@@ -15,28 +15,31 @@
  */
 
 /* 
- * File:   thread_create_9.cpp
+ * File:   thread_create_12.cpp
  * Author: Mateusz@Krainski.eu
  *
- * This program demonstrates improper thread handling - not detaching or 
- * joining
- * Created on October 14, 2018, 1:37 AM
+ * This file provides an exemplar solution to exercises 1 - 2
+ * 
+ * Created on October 15, 2018, 16:28 AM
  */
 
 #include <iostream>
 #include <thread>
+#include <chrono>
 
 using namespace std;
 
-void this_will_fail(){
-    thread thread_object([]{
-        cout<<"This is printed from thread\n";
-    } );
-}
-
 int main(int argc, char** argv) {
 
-    this_will_fail();
+    thread thread_object([]{
+        cout<<"Thread is executing...\n";
+        
+        this_thread::sleep_for(chrono::microseconds(1));
+        
+        cout<<"Thread finished\n";
+    } );
+    
+    thread_object.detach();
    
     cout << "This is printed from main\n";
     
